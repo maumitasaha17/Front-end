@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#fname{
+    display: inline-block;
+    margin-right: 10px;
+}
+#lname{
+    display: inline-block;
+    
+}
+.form-group {
+    margin-bottom: 40px;
+}
+#email{
+    width:fit-content;
+}

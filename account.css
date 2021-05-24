@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ #headerBlock{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+}
+
+#headerBlock nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#headerBlock nav > ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    list-style: none;
+}
+
+#headerBlock nav > ul > li > a{
+    text-decoration: none;
+    color: #111;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#headerBlock nav ul li{
+    position: relative;
+}
+#headerBlock ul li a:hover{
+    background-color:teal;
+    color: #fff;
+}

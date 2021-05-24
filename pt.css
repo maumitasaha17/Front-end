@@ -1,0 +1,6 @@
+*{
+    border: solid black;
+    float:right;
+    border-width:30;
+    border-style:insert;
+}
